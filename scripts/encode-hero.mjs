@@ -11,6 +11,7 @@ import { execFileSync } from 'node:child_process';
 import { mkdirSync } from 'node:fs';
 import path from 'node:path';
 import ffmpeg from '@ffmpeg-installer/ffmpeg';
+import sharp from 'sharp';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const SRC = path.join(ROOT, 'tmp/v2/hero-src');
@@ -40,7 +41,7 @@ for (const clip of clips) {
     '-ss', String(clip.start), '-t', String(clip.seconds), '-i', input,
     '-an', '-vf', 'scale=1920:1080:flags=lanczos,fps=30',
     '-c:v', 'libx264', '-profile:v', 'high', '-level:v', '4.1', '-preset', 'medium',
-    '-crf', '23', '-maxrate', '9M', '-bufsize', '18M', '-g', '60',
+    '-crf', '26', '-maxrate', '4M', '-bufsize', '8M', '-g', '60',
     '-pix_fmt', 'yuv420p', '-movflags', '+faststart',
     `${base}.mp4`,
   ]);
@@ -50,7 +51,7 @@ for (const clip of clips) {
     '-ss', String(clip.start), '-t', String(clip.seconds), '-i', input,
     '-an', '-vf', 'scale=1280:720:flags=lanczos,fps=30',
     '-c:v', 'libx264', '-profile:v', 'high', '-level:v', '4.0', '-preset', 'medium',
-    '-crf', '25', '-maxrate', '3500k', '-bufsize', '7000k', '-g', '60',
+    '-crf', '26', '-maxrate', '2200k', '-bufsize', '4400k', '-g', '60',
     '-pix_fmt', 'yuv420p', '-movflags', '+faststart',
     `${base}-mobile.mp4`,
   ]);
@@ -61,6 +62,13 @@ for (const clip of clips) {
     '-frames:v', '1', '-vf', 'scale=1920:1080:flags=lanczos',
     '-q:v', '2', `${base}-poster.jpg`,
   ]);
+
+  // Posters are only shown while a film is loading or when motion is
+  // reduced, so a 1280px WebP is ample and much lighter than the old JPEG.
+  await sharp(`${base}-poster.jpg`)
+    .resize({ width: 1280, height: 720, fit: 'cover' })
+    .webp({ quality: 80 })
+    .toFile(`${base}-poster.webp`);
 }
 
 console.log('\nHero masters rebuilt: 1080p desktop / 720p mobile.');

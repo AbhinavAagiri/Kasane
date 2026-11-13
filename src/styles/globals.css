@@ -2860,6 +2860,38 @@
   pointer-events: none;
   background: linear-gradient(180deg, transparent 65%, rgba(4, 7, 5, 0.5));
 }
+.journey-film__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  transform: translate(-50%, -50%);
+  padding: 0.7rem 0.95rem;
+  border: 1px solid rgba(241, 235, 221, 0.38);
+  border-radius: 999px;
+  background: rgba(5, 8, 6, 0.62);
+  color: var(--world-ivory);
+  font-size: 0.625rem;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+  pointer-events: auto;
+  backdrop-filter: blur(8px);
+  transition: background-color 300ms var(--ease-out), border-color 300ms var(--ease-out);
+}
+.journey-film__play:hover {
+  border-color: rgba(241, 235, 221, 0.72);
+  background: rgba(5, 8, 6, 0.82);
+}
+.journey-film__play svg {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: currentColor;
+}
 .journey-film__caption {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -3608,8 +3640,7 @@
 }
 .world--v5 .world-explore {
   border: 1px solid rgba(241, 235, 221, 0.13);
-  background: rgba(9, 12, 9, 0.9);
-  backdrop-filter: blur(12px);
+  background: rgba(9, 12, 9, 0.94);
 }
 .world--v5 .world-masthead {
   z-index: 12;

@@ -118,7 +118,7 @@ export const GlobeCanvas = ({
         aria-hidden="true"
       >
         <Canvas
-          dpr={[1, quality === 'high' ? 1.75 : 1.35]}
+          dpr={[1, quality === 'high' ? 1.5 : 1.25]}
           frameloop={inView ? 'always' : 'never'}
           camera={{
             position: [0, 0, scene.distance * distanceScale],

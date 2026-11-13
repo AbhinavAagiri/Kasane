@@ -1,6 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
+import { Play } from 'lucide-react';
 import type { HeroClip } from '@/data/hero';
 import { prefersReducedMotion } from '@/lib/motion';
+
+// Media URLs are not fingerprinted. Bump this whenever the encoded films
+// change so returning visitors do not keep the previous, larger files from
+// the one-week media cache.
+const MEDIA_VERSION = '2';
 
 /**
  * All four journey films live in the stage so GSAP can choreograph their
@@ -10,12 +16,15 @@ import { prefersReducedMotion } from '@/lib/motion';
 export const JourneyFilm = ({ clip, active }: { clip: HeroClip; active: boolean }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [mobile, setMobile] = useState(() =>
-    typeof window !== 'undefined' ? window.matchMedia('(max-width: 767px)').matches : false,
+    typeof window !== 'undefined' ? window.matchMedia('(max-width: 1023px)').matches : false,
   );
   const [reduced, setReduced] = useState(() => prefersReducedMotion());
+  const [playing, setPlaying] = useState(false);
+  const [blocked, setBlocked] = useState(false);
+  const [optedIn, setOptedIn] = useState(false);
 
   useEffect(() => {
-    const media = window.matchMedia('(max-width: 767px)');
+    const media = window.matchMedia('(max-width: 1023px)');
     const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
     const update = () => {
       setMobile(media.matches);
@@ -32,15 +41,32 @@ export const JourneyFilm = ({ clip, active }: { clip: HeroClip; active: boolean 
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
-    if (!active || reduced) {
+    if (!active || (reduced && !optedIn)) {
       video.pause();
       return;
     }
     video.preload = 'auto';
     const play = video.play();
-    if (play) play.catch(() => undefined);
+    if (play) {
+      play.catch(() => {
+        if (active) setBlocked(true);
+      });
+    }
     return () => video.pause();
-  }, [active, mobile, reduced]);
+  }, [active, mobile, reduced, optedIn]);
+
+  const playFilm = () => {
+    const video = videoRef.current;
+    if (!video) return;
+    setBlocked(false);
+    setOptedIn(true);
+    const play = video.play();
+    if (play) play.catch(() => setBlocked(true));
+  };
+
+  // The film is decorative, but the control is not: browsers that block
+  // muted autoplay and visitors who request reduced motion can still opt in.
+  const showPlay = active && !playing && (reduced || blocked || optedIn);
 
   return (
     <figure className={`journey-film journey-film--${clip.file}`} data-film={clip.file}>
@@ -48,14 +74,32 @@ export const JourneyFilm = ({ clip, active }: { clip: HeroClip; active: boolean 
         <video
           key={`${clip.id}-${mobile ? 'mobile' : 'desktop'}`}
           ref={videoRef}
-          src={`/media/hero/${clip.file}${mobile ? '-mobile' : ''}.mp4`}
-          poster={clip.poster}
+          src={`/media/hero/${clip.file}${mobile ? '-mobile' : ''}.mp4?v=${MEDIA_VERSION}`}
+          // Do not fetch all four posters on first paint. The poster belongs
+          // to the chapter that is actually on screen.
+          poster={active ? clip.poster : undefined}
           preload={active && !reduced ? 'auto' : 'none'}
           muted
           loop
           playsInline
           aria-hidden="true"
+          onPlay={() => {
+            setPlaying(true);
+            setBlocked(false);
+          }}
+          onPause={() => setPlaying(false)}
         />
+        {showPlay ? (
+          <button
+            type="button"
+            className="journey-film__play"
+            onClick={playFilm}
+            aria-label={`Play the ${clip.place} film`}
+          >
+            <Play aria-hidden="true" />
+            <span>Play film</span>
+          </button>
+        ) : null}
         <span className="journey-film__edge" aria-hidden="true" />
       </div>
       <figcaption className="journey-film__caption">

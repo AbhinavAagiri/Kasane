@@ -54,12 +54,12 @@ export const Nav = () => {
     <>
       <header
         className={cn(
-          'fixed inset-x-0 top-0 z-[60] border-b transition-[background-color,color,border-color,backdrop-filter] duration-300 print-hide',
+          'fixed inset-x-0 top-0 z-[60] border-b transition-[background-color,color,border-color] duration-300 print-hide',
           overlay
             ? 'border-transparent bg-[linear-gradient(180deg,rgba(8,10,8,0.62)_0%,rgba(8,10,8,0.3)_65%,rgba(8,10,8,0.08)_100%)] text-ivory'
             : darkSurface
-              ? 'border-ivory/10 bg-night/90 text-ivory backdrop-blur-md'
-              : 'border-ink/10 bg-ivory/94 text-ink backdrop-blur-md',
+              ? 'border-ivory/10 bg-night/90 text-ivory'
+              : 'border-ink/10 bg-ivory/94 text-ink',
         )}
       >
         <div className="shell flex h-[var(--nav-h)] items-center justify-between gap-5">

@@ -207,8 +207,11 @@ const Surface = ({
   highlightedCodes: string[];
   scrollProgress: MutableRefObject<number>;
 }) => {
-  const textureWidth = quality === 'high' ? 3072 : 2048;
-  const segmentCount = quality === 'high' ? 128 : 72;
+  // The globe is a background object, not a full-screen map. A 2048px canvas
+  // is already beyond the size it is ever drawn at, while the 3072px upload
+  // added a noticeable main-thread and GPU cost on first load.
+  const textureWidth = quality === 'high' ? 2048 : 1536;
+  const segmentCount = quality === 'high' ? 96 : 72;
   const baseTexture = useMemo(() => makeGlobeTexture(data, textureWidth), [data, textureWidth]);
   // The highlight is a soft gold boundary overlay, not the base map. A 1024px
   // canvas is visually indistinguishable here and avoids a large texture

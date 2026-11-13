@@ -145,6 +145,11 @@ export const GlobeJourney = () => {
   const lastScene = useRef(-1);
   const interactiveRef = useRef(false);
   const { lenis } = useScrollApi();
+  const lenisRef = useRef(lenis);
+
+  useEffect(() => {
+    lenisRef.current = lenis;
+  }, [lenis]);
   const [sceneIndex, setSceneIndex] = useState(0);
   const [interactive, setInteractive] = useState(false);
   const [inView, setInView] = useState(false);
@@ -290,7 +295,9 @@ export const GlobeJourney = () => {
       // Full-bleed films fade across the whole viewport, so a partial fade
       // has no interior edge to cut the globe. Floating cards can still
       // paint a hard frame while they are barely visible; keep those out of
-      // the compositor until enough of the frame is readable.
+      // the compositor until enough of the frame is readable. Only write when
+      // the value changes so this tick does not invalidate styles every frame.
+      const imageVisibility = new WeakMap<Element, string>();
       const gateFaintImages = () => {
         imageCards.forEach((card) => {
           const opacity = Number(card.style.opacity || 1);
@@ -302,7 +309,10 @@ export const GlobeJourney = () => {
             : card.classList.contains('journey-film')
               ? 0.5
               : 0.2;
-          card.style.visibility = opacity > threshold ? 'visible' : 'hidden';
+          const visibility = opacity > threshold ? 'visible' : 'hidden';
+          if (imageVisibility.get(card) === visibility) return;
+          imageVisibility.set(card, visibility);
+          card.style.visibility = visibility;
         });
       };
       // Run after GSAP's render tick so autoAlpha/opacity has already been
@@ -682,7 +692,7 @@ export const GlobeJourney = () => {
           const target =
             activeTrigger.start + (activeTrigger.end - activeTrigger.start) * progress;
           if (Math.abs(window.scrollY - target) < 2) return;
-          if (lenis) lenis.scrollTo(target, { immediate: true, force: true });
+          if (lenisRef.current) lenisRef.current.scrollTo(target, { immediate: true, force: true });
           else window.scrollTo({ top: target, behavior: 'instant' });
         }, 260);
       };
@@ -708,7 +718,11 @@ export const GlobeJourney = () => {
       triggerRange.current = null;
       delete document.documentElement.dataset.surface;
     };
-  }, [lenis]);
+    // Lenis is created after this component mounts. Rebuilding the full
+    // timeline when the context updates caused a second pin setup and a
+    // visible scroll hitch; the resize handler reads the current instance
+    // through a ref instead.
+  }, []);
 
   const jumpTo = (index: number) => {
     const range = triggerRange.current;

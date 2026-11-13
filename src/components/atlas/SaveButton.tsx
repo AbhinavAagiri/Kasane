@@ -67,7 +67,7 @@ export const SaveButton = ({
       aria-label={saved ? `Remove ${name} from saved places` : `Save ${name}`}
       title={saved ? 'Remove from saved' : 'Save place'}
       className={cn(
-        'flex h-9 w-9 items-center justify-center rounded-full border backdrop-blur-md transition-[background-color,color,border-color,transform] duration-200 hover:scale-[1.04]',
+        'flex h-9 w-9 items-center justify-center rounded-full border transition-[background-color,color,border-color,transform] duration-200 hover:scale-[1.04]',
         saved
           ? 'border-ink bg-ink text-ivory'
           : tone === 'dark'
