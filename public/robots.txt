@@ -1,0 +1,45 @@
+# Search engines: public content is crawlable; only browser-local tools are excluded.
+User-agent: *
+Allow: /
+Disallow: /my-world
+Disallow: /plan/new
+Disallow: /plan/trip-
+Disallow: /collections/collection-
+
+# Answer engines and user-triggered fetchers: allowed.
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /my-world
+Disallow: /plan/new
+Disallow: /plan/trip-
+Disallow: /collections/collection-
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /my-world
+Disallow: /plan/new
+Disallow: /plan/trip-
+Disallow: /collections/collection-
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /my-world
+Disallow: /plan/new
+Disallow: /plan/trip-
+Disallow: /collections/collection-
+
+# Model-training crawlers: intentionally not allowed. This is a robots.txt
+# preference, not access control; the editorial content remains public.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://kasane-atlas.pages.dev/sitemap.xml

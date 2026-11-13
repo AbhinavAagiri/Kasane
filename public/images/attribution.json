@@ -1,0 +1,581 @@
+{
+  "note": "Photography licensed via Unsplash, Pexels and Wikimedia Commons. Destinations are depicted editorially; KASANE is not affiliated with any place shown. Every asset is recorded with its creator, licence and source page.",
+  "images": [
+    {
+      "key": "atlas-closing",
+      "source": "Unsplash",
+      "photoId": "1667490750889-a3c241de59e4",
+      "alt": "a foggy valley with a road",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "atlas-hero",
+      "source": "Unsplash",
+      "photoId": "1697056898943-b80e3b6042d1",
+      "alt": "a group of mountains covered in clouds in the distance",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-athens",
+      "source": "Wikimedia Commons",
+      "creator": "A.Savin",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg",
+      "subject": "Acropolis from Philopappos Hill, Athens",
+      "usage": "Athens destination hero",
+      "alt": "The Acropolis and Parthenon seen from Philopappos Hill, Athens",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "key": "dest-athens-b",
+      "source": "Wikimedia Commons",
+      "creator": "Spyrosdrakopoulos",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaka_district-Athens_22.JPG",
+      "subject": "Plaka, Athens",
+      "usage": "Athens destination detail",
+      "alt": "A quiet lane of neoclassical houses in Plaka, Athens",
+      "license": "CC0"
+    },
+    {
+      "key": "dest-bangkok",
+      "source": "Wikimedia Commons",
+      "creator": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Templo_Wat_Arun,_Bangkok,_Tailandia,_2013-08-22,_DD_05.jpg",
+      "subject": "Wat Arun, Bangkok",
+      "usage": "Bangkok destination hero",
+      "alt": "The ornate central prang of Wat Arun against a cloudy Bangkok sky",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "key": "dest-bangkok-b",
+      "source": "Wikimedia Commons",
+      "creator": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Pho,_Bangkok,_Tailandia,_2013-08-22,_DD_02.jpg",
+      "subject": "Wat Pho, Bangkok",
+      "usage": "Bangkok destination detail",
+      "alt": "The gilded reclining Buddha inside Wat Pho, Bangkok",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "key": "dest-barcelona",
+      "source": "Unsplash",
+      "photoId": "1571278103789-a36c181e3932",
+      "alt": "aerial photography of city during daytime",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-barcelona-b",
+      "source": "Unsplash",
+      "photoId": "1718120220161-97fc64db1b7a",
+      "alt": "a group of buildings with balconies and balconies on top of them",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-cape-town",
+      "source": "Wikimedia Commons",
+      "creator": "South African Tourism",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Table_Mountain_from_Blouberg,_South_Africa_(4028515275).jpg",
+      "subject": "Table Mountain from Bloubergstrand",
+      "usage": "Cape Town destination hero",
+      "alt": "Table Mountain rising beyond the surf at Bloubergstrand, Cape Town",
+      "license": "CC BY 2.0"
+    },
+    {
+      "key": "dest-cape-town-b",
+      "source": "Wikimedia Commons",
+      "creator": "Martinvl",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorp_Street,_Bo-Kaap,_Cape_Town.JPG",
+      "subject": "Bo-Kaap, Cape Town",
+      "usage": "Cape Town destination detail",
+      "alt": "Pastel houses along Dorp Street in Bo-Kaap, Cape Town",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "key": "dest-cusco",
+      "source": "Wikimedia Commons",
+      "creator": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral,_Plaza_de_Armas,_Cusco,_Per%C3%BA,_2015-07-31,_DD_73.JPG",
+      "subject": "Plaza de Armas, Cusco",
+      "usage": "Cusco destination hero",
+      "alt": "The cathedral on the Plaza de Armas in Cusco, Peru",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "key": "dest-cusco-b",
+      "source": "Wikimedia Commons",
+      "creator": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sacsayhuam%C3%A1n,_Cusco,_Per%C3%BA,_2015-07-31,_DD_27.JPG",
+      "subject": "Sacsayhuamán, Cusco",
+      "usage": "Cusco destination detail",
+      "alt": "The fitted stone walls of Sacsayhuamán above Cusco",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "key": "dest-essaouira",
+      "source": "Unsplash",
+      "photoId": "1655805773533-8e307d885f6c",
+      "alt": "a brick wall with cannons on it",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-essaouira-b",
+      "source": "Pexels",
+      "creator": "Pexels contributor",
+      "sourceUrl": "https://www.pexels.com/photo/blue-fishing-boats-at-essaouira-harbor-37442059/",
+      "subject": "Essaouira harbour",
+      "usage": "Essaouira destination detail",
+      "alt": "Blue fishing boats packed into the harbour at Essaouira",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-florence",
+      "source": "Unsplash",
+      "photoId": "1691319683514-7f0ec295151f",
+      "alt": "a view of a city with a river running through it",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-florence-b",
+      "source": "Unsplash",
+      "photoId": "1496324839965-d6281225d8eb",
+      "alt": "bridge crossing river in town under cloudy sky during daytime",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-ghent",
+      "source": "Unsplash",
+      "photoId": "1636406549515-3108c7dc8ebc",
+      "alt": "a bridge over a body of water next to tall buildings",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-ghent-b",
+      "source": "Unsplash",
+      "photoId": "1791162657204-b086de3dd781",
+      "alt": "Colorful row houses along a canal with docked boats under a blue sky",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-hanoi",
+      "source": "Wikimedia Commons",
+      "creator": "Daderot",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_Lake_-_Hanoi,_Vietnam_-_DSC03695.JPG",
+      "subject": "Hoan Kiem Lake, Hanoi",
+      "usage": "Hanoi destination hero",
+      "alt": "Hoan Kiem Lake ringed by trees and the lakeside walk in central Hanoi",
+      "license": "CC0"
+    },
+    {
+      "key": "dest-hanoi-b",
+      "source": "Wikimedia Commons",
+      "creator": "Richard Mortel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Quarter,_Hanoi_(38464361292).jpg",
+      "subject": "Old Quarter, Hanoi",
+      "usage": "Hanoi destination detail",
+      "alt": "A shopfront of bags and street life in Hanoi’s Old Quarter",
+      "license": "CC BY 2.0"
+    },
+    {
+      "key": "dest-istanbul",
+      "source": "Wikimedia Commons",
+      "creator": "Arild Vågen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg",
+      "subject": "Hagia Sophia, Istanbul",
+      "usage": "Istanbul destination hero",
+      "alt": "Hagia Sophia’s domes and minarets seen across the square in Istanbul",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "key": "dest-istanbul-b",
+      "source": "Wikimedia Commons",
+      "creator": "Moonik",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sultanahmet_ferry_on_the_Bosphorus_in_Istanbul,_Turkey_001.jpg",
+      "subject": "Bosphorus, Istanbul",
+      "usage": "Istanbul destination detail",
+      "alt": "A ferry crossing the Bosphorus with the Istanbul skyline and minarets behind",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "key": "dest-jaipur",
+      "source": "Unsplash",
+      "photoId": "1661924326425-c14a6426d989",
+      "alt": "Jal Mahal with a gold roof by a body of water",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-jaipur-b",
+      "source": "Unsplash",
+      "photoId": "1578999935853-4ec5fa6c1f60",
+      "alt": "Hawa Mahal, India",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-kyoto",
+      "source": "Unsplash",
+      "photoId": "1610238115511-81be15284155",
+      "alt": "A wooden covered walkway in a Japanese garden with vibrant autumn foliage",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-kyoto-b",
+      "source": "Pexels",
+      "creator": "AXP Photography",
+      "sourceUrl": "https://www.pexels.com/photo/hashin-tei-garden-in-kyoto-japan-18848760/",
+      "subject": "Hashin-tei garden, Kyoto",
+      "usage": "Kyoto destination detail",
+      "alt": "Raked gravel and clipped pines in a Kyoto temple garden",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-lisbon",
+      "source": "Pexels",
+      "creator": "Pexels contributor",
+      "sourceUrl": "https://www.pexels.com/photo/rooftop-view-of-lisbon-s-historic-alfama-district-31762629/",
+      "subject": "Alfama, Lisbon",
+      "usage": "Lisbon destination hero",
+      "alt": "Terracotta rooftops and white houses stepping down toward the Tagus in Alfama",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-lisbon-b",
+      "source": "Pexels",
+      "creator": "Pexels contributor",
+      "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-lisbon-s-historic-alfama-district-28962467/",
+      "subject": "Alfama, Lisbon",
+      "usage": "Lisbon destination detail",
+      "alt": "A dense roofscape of terracotta tiles above Lisbon",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-lucerne",
+      "source": "Unsplash",
+      "photoId": "1651822009112-c9a1a8d34a7f",
+      "alt": "a town on a hill by a lake",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-lucerne-b",
+      "source": "Unsplash",
+      "photoId": "1661502687907-d10f794efa5c",
+      "alt": "a body of water with buildings along it",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-marrakech",
+      "source": "Wikimedia Commons",
+      "creator": "Unknown (Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koutoubia_Mosque_1.jpg",
+      "subject": "Koutoubia Mosque, Marrakech",
+      "usage": "Marrakech destination hero",
+      "alt": "The Koutoubia minaret rising above palms and low red buildings in Marrakech",
+      "license": "Public domain"
+    },
+    {
+      "key": "dest-marrakech-b",
+      "source": "Wikimedia Commons",
+      "creator": "Parsifall",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marrakech,_Medersa_Ben_Youssef_02.jpg",
+      "subject": "Ben Youssef Madrasa, Marrakech",
+      "usage": "Marrakech destination detail",
+      "alt": "Carved stucco arch and zellige tilework in the Ben Youssef Madrasa, Marrakech",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "key": "dest-matera",
+      "source": "Unsplash",
+      "photoId": "1681741027822-74361801e499",
+      "alt": "a view of a city from a high point of view",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-matera-b",
+      "source": "Pexels",
+      "creator": "Pexels contributor",
+      "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-matera-s-historic-sassi-38015361",
+      "subject": "Sassi di Matera",
+      "usage": "Matera destination detail",
+      "alt": "The stone terraces and cave dwellings of the Sassi di Matera",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-mexico-city",
+      "source": "Wikimedia Commons",
+      "creator": "Daniel Case",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palaco_de_Bellas_Artes,_Mexico_City,_from_across_Eje_Central_Lazaro_Cardenas_in_evening.jpg",
+      "subject": "Palacio de Bellas Artes, Mexico City",
+      "usage": "Mexico City destination hero",
+      "alt": "The Palacio de Bellas Artes lit at dusk, seen across Avenida Juárez in Mexico City",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "key": "dest-mexico-city-b",
+      "source": "Wikimedia Commons",
+      "creator": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palacio_de_Bellas_Artes,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2013-10-13,_DD_40.jpg",
+      "subject": "Palacio de Bellas Artes interior",
+      "usage": "Mexico City destination detail",
+      "alt": "The stained-glass dome and gilded interior of the Palacio de Bellas Artes",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "key": "dest-new-york",
+      "source": "Unsplash",
+      "photoId": "1492666673288-3c4b4576ad9a",
+      "alt": "The Manhattan Bridge framed by red brick buildings on a street in New York",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-new-york-b",
+      "source": "Unsplash",
+      "photoId": "1575775424127-28bc80754cf5",
+      "alt": "brown building facing street",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-paris",
+      "source": "Pexels",
+      "creator": "Vinícius Araújo",
+      "sourceUrl": "https://www.pexels.com/photo/a-view-of-the-city-of-paris-6496932/",
+      "subject": "Paris rooftops and the Eiffel Tower",
+      "usage": "Paris destination hero",
+      "alt": "Zinc rooftops and chimney pots with the Eiffel Tower against a pale evening sky",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-paris-b",
+      "source": "Pexels",
+      "creator": "Pexels contributor",
+      "sourceUrl": "https://www.pexels.com/photo/paris-rooftops-with-eiffel-tower-in-view-31925199/",
+      "subject": "Paris rooftops",
+      "usage": "Paris destination detail",
+      "alt": "A close view of Parisian zinc roofs and the Eiffel Tower",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-queenstown",
+      "source": "Wikimedia Commons",
+      "creator": "Lawrence Murray",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queenstown_from_Bob%27s_Peak.jpg",
+      "subject": "Queenstown from Bob’s Peak",
+      "usage": "Queenstown destination hero",
+      "alt": "Queenstown and Lake Wakatipu at dusk from Bob’s Peak",
+      "license": "CC BY 2.0"
+    },
+    {
+      "key": "dest-queenstown-b",
+      "source": "Wikimedia Commons",
+      "creator": "Krzysztof Golik",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Wakatipu_13.jpg",
+      "subject": "Lake Wakatipu, Queenstown",
+      "usage": "Queenstown destination detail",
+      "alt": "Lake Wakatipu and the Remarkables from the Queenstown waterfront",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "key": "dest-reykjavik",
+      "source": "Pexels",
+      "creator": "Pexels contributor",
+      "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-hallgrimskirkja-in-reykjavik-iceland-29877249/",
+      "subject": "Hallgrímskirkja, Reykjavík",
+      "usage": "Reykjavík destination hero",
+      "alt": "Hallgrímskirkja rising above the low rooftops of Reykjavík",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-reykjavik-b",
+      "source": "Pexels",
+      "creator": "Pexels contributor",
+      "sourceUrl": "https://www.pexels.com/photo/colorful-street-leading-to-hallgrimskirkja-37958318/",
+      "subject": "Rainbow Street, Reykjavík",
+      "usage": "Reykjavík destination detail",
+      "alt": "A rainbow-painted street leading toward Hallgrímskirkja",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-seoul",
+      "source": "Pexels",
+      "creator": "Pexels contributor",
+      "sourceUrl": "https://www.pexels.com/photo/36679865/",
+      "subject": "Gyeongbokgung, Seoul",
+      "usage": "Seoul destination hero",
+      "alt": "A traditional Korean palace pavilion in Seoul under a wide sky",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-seoul-b",
+      "source": "Pexels",
+      "creator": "Pexels contributor",
+      "sourceUrl": "https://www.pexels.com/photo/roofs-of-traditional-korean-houses-in-bukchon-hanok-village-20325767/",
+      "subject": "Bukchon Hanok Village, Seoul",
+      "usage": "Seoul destination detail",
+      "alt": "Dark curved hanok roofs layered above Bukchon",
+      "license": "Pexels License"
+    },
+    {
+      "key": "dest-ubud",
+      "source": "Wikimedia Commons",
+      "creator": "Nepomuk",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pura_Taman_Saraswati_(Ubud,_Bali,_Indonesia).jpg",
+      "subject": "Pura Taman Saraswati, Ubud",
+      "usage": "Ubud destination hero",
+      "alt": "The split gate and lotus pond of Pura Taman Saraswati in Ubud, Bali",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "key": "dest-ubud-b",
+      "source": "Wikimedia Commons",
+      "creator": "Pinterpandai",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tegallalang_Rice_Terrace.jpg",
+      "subject": "Tegallalang rice terraces, Bali",
+      "usage": "Ubud destination detail",
+      "alt": "Terraced rice fields stepped into the hills at Tegallalang near Ubud",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "key": "dest-valletta",
+      "source": "Unsplash",
+      "photoId": "1560365337-6f42f70dd874",
+      "alt": "brown dome building",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "dest-valletta-b",
+      "source": "Unsplash",
+      "photoId": "1527155431803-74e5f93c7111",
+      "alt": "concrete street under blue sky during daytime",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "interest-architecture",
+      "source": "Unsplash",
+      "photoId": "1546414701-81cc6963c67f",
+      "alt": "landscape photography of gray concrete building",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "interest-art",
+      "source": "Unsplash",
+      "photoId": "1697257378436-3bbf6cf9f8ba",
+      "alt": "a large painting hanging on the wall of a museum",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "interest-cities",
+      "source": "Unsplash",
+      "photoId": "1776861963173-81397cbaa157",
+      "alt": "Apartment buildings on a street at sunset",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "interest-culture",
+      "source": "Unsplash",
+      "photoId": "1589463349208-95817c91f971",
+      "alt": "yellow and red hanging decors",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "interest-food",
+      "source": "Unsplash",
+      "photoId": "1552912470-ee2e96439539",
+      "alt": "woman cooking street foods",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "interest-history",
+      "source": "Unsplash",
+      "photoId": "1668212145518-b9a2a614bbd9",
+      "alt": "a stone structure with a few columns",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "interest-nature",
+      "source": "Unsplash",
+      "photoId": "1478382188900-5bb598fe27d3",
+      "alt": "waterfalls beside green mountain",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-iceland",
+      "source": "Unsplash",
+      "photoId": "1659990443157-1020aa0624ed",
+      "alt": "a river running through a valley",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-iceland-b",
+      "source": "Unsplash",
+      "photoId": "1722478603669-b2904f8086e5",
+      "alt": "A view of a valley with a mountain in the background",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-italy",
+      "source": "Unsplash",
+      "photoId": "1657612018084-9e2c564ad1f2",
+      "alt": "a long bridge over a body of water",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-italy-b",
+      "source": "Unsplash",
+      "photoId": "1664735594845-d3baf66c1c1a",
+      "alt": "a green field with a house in the distance",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-kyoto",
+      "source": "Unsplash",
+      "photoId": "1651662319681-50695b9da1ce",
+      "alt": "a wooden walkway with trees in the background",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-kyoto-b",
+      "source": "Unsplash",
+      "photoId": "1757829315841-d5384dbfb560",
+      "alt": "Traditional japanese room with open doorway to garden",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-lisbon",
+      "source": "Unsplash",
+      "photoId": "1740239851547-8dba7675b5ed",
+      "alt": "A man walking down a street past a building",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-lisbon-b",
+      "source": "Unsplash",
+      "photoId": "1762786924533-e335a5eb3ca3",
+      "alt": "Ornate building facade with tiled walls and balconies",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-new-york",
+      "source": "Unsplash",
+      "photoId": "1698248476376-f28f8869b622",
+      "alt": "A row of brownstone buildings on a New York street",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-new-york-b",
+      "source": "Unsplash",
+      "photoId": "1617401714556-f145c353028c",
+      "alt": "brown concrete building during daytime",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-rajasthan",
+      "source": "Unsplash",
+      "photoId": "1773155920824-54413d1a3876",
+      "alt": "People walk in the courtyard of a historic pink palace",
+      "license": "Unsplash License"
+    },
+    {
+      "key": "story-rajasthan-b",
+      "source": "Unsplash",
+      "photoId": "1573363059771-8b2b53b492ff",
+      "alt": "green and white concrete building",
+      "license": "Unsplash License"
+    }
+  ]
+}

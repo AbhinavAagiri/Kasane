@@ -1,0 +1,19 @@
+node_modules
+dist
+dist-ssr
+dist-server
+*.local
+*.tsbuildinfo
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Asset research (downloaded candidates, contact sheets, film source)
+assets-unprocessed
+tmp
+
+# Local environment
+.env
+.env.*
+!.env.example

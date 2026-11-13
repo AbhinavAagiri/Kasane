@@ -1,0 +1,43 @@
+name: Refresh event listings
+
+on:
+  schedule:
+    # Monday morning, after the weekend's listings have settled.
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-events
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Refresh optional listings
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: node scripts/update-events.mjs
+
+      - name: Commit if the listing changed
+        run: |
+          if git diff --quiet -- src/data/events/generated.json; then
+            echo "No event changes."
+            exit 0
+          fi
+          git config user.name "kasane-events[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/events/generated.json
+          git commit -m "chore: refresh generated event listings"
+          git push

@@ -1,0 +1,614 @@
+[
+  {
+    "slug": "jaipur-literature-festival-2027",
+    "name": "Jaipur Literature Festival",
+    "destinationSlug": "jaipur",
+    "city": "Jaipur",
+    "country": "India",
+    "venue": "Hotel Clarks Amer, Jawaharlal Nehru Marg",
+    "coordinates": { "lat": 26.8306, "lng": 75.8056 },
+    "startDate": "2027-01-14",
+    "endDate": "2027-01-18",
+    "category": "literature",
+    "dateStatus": "confirmed",
+    "summary": "Five days of books, argument and music in a garden hotel — the festival that made Jaipur a global literary address.",
+    "body": [
+      "The Jaipur Literature Festival began in 2006 with a handful of sessions and has become one of the largest public literary gatherings in the world. Its programme mixes Nobel laureates with poets, translators, historians and musicians, and the atmosphere is deliberately informal: audiences move between tents, queue for chai and argue about the last panel.",
+      "The 2027 edition is the twentieth. The festival is free to attend but requires online registration; the Music Stage and some special events are ticketed separately. January mornings are cold in Jaipur, the afternoons warm, and the grounds are busy — plan for long days and comfortable shoes."
+    ],
+    "whyGo": "For the rare experience of a serious literary festival that remains genuinely public, in a city whose own storytelling culture is older than any publishing industry.",
+    "etiquette": [
+      "Register online in advance and carry the QR code; do not rely on walk-in entry.",
+      "Questions from the floor are welcome, but keep them short and listen to the moderator.",
+      "Do not record full sessions on a phone; check the festival's photography policy at each venue."
+    ],
+    "tickets": {
+      "status": "free-registration",
+      "note": "General entry is free with online registration. Music Stage and some evening events are ticketed separately.",
+      "url": "https://jaipurliteraturefestival.org/"
+    },
+    "source": {
+      "label": "Jaipur Literature Festival — official dates",
+      "url": "https://jaipurliteraturefestival.org/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Books", "Ideas", "Winter"],
+    "image": "dest-jaipur"
+  },
+  {
+    "slug": "seollal-seoul-2027",
+    "name": "Seollal — Korean Lunar New Year",
+    "destinationSlug": "seoul",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Citywide, with palace and hanok village programmes",
+    "coordinates": { "lat": 37.5665, "lng": 126.978 },
+    "startDate": "2027-02-06",
+    "endDate": "2027-02-09",
+    "category": "ritual",
+    "dateStatus": "confirmed",
+    "summary": "The lunar new year, when families gather, bow to elders and the city slows for four days.",
+    "body": [
+      "Seollal is the first day of the lunar year, and in Korea it is a family holiday rather than a street festival. Households perform sebae — a deep bow to elders — eat tteokguk (rice-cake soup) and share gifts. Palaces and folk villages run demonstrations of traditional games and crafts, but many independent shops and restaurants close.",
+      "In 2027 the holiday runs from Saturday 6 to Tuesday 9 February, with Seollal itself on Sunday 7 February. Transport out of Seoul books up early; the city becomes unusually quiet in the centre and busy at the airports and train stations."
+    ],
+    "whyGo": "To see a major East Asian new year as a family ritual rather than a tourist show — and to experience Seoul at a slower, more intimate pace.",
+    "etiquette": [
+      "Do not expect every restaurant or shop to be open; plan around the holiday.",
+      "If invited into a family home, follow your host's lead for bowing and gifts.",
+      "Avoid photographing ancestral rites or family gatherings without explicit permission."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Public holiday. Palace and museum programmes may be free or reduced; check individual sites.",
+      "url": "https://english.visitkorea.or.kr/"
+    },
+    "source": {
+      "label": "Korea Tourism Organization — 2027 holiday calendar",
+      "url": "https://english.visitkorea.or.kr/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Family", "Ritual", "Winter"],
+    "image": "dest-seoul"
+  },
+  {
+    "slug": "festa-san-pawl-valletta-2027",
+    "name": "Festa San Pawl",
+    "destinationSlug": "valletta",
+    "city": "Valletta",
+    "country": "Malta",
+    "venue": "Valletta and Floriana",
+    "coordinates": { "lat": 35.8989, "lng": 14.5146 },
+    "startDate": "2027-02-10",
+    "endDate": "2027-02-10",
+    "category": "ritual",
+    "dateStatus": "annual-fixed",
+    "summary": "Malta's national feast of St Paul, marked by processions, bands and a public holiday.",
+    "body": [
+      "St Paul is the patron saint of Malta, and 10 February marks the feast of his shipwreck on the island. Valletta and neighbouring towns hold religious processions, band marches and fireworks; the day is a public holiday, so expect closures and a slower civic rhythm.",
+      "This is a living Catholic celebration, not a heritage display. The processions are organised by local parishes and confraternities, and the marching bands are a serious part of Maltese identity. Visitors are welcome to watch, provided they keep the route clear and treat the ritual with respect."
+    ],
+    "whyGo": "A winter feast that shows Malta's religious calendar and band culture without the summer crowds.",
+    "etiquette": [
+      "Stand to the side of the procession and do not step into the street for photographs.",
+      "Dress modestly if entering a church.",
+      "Fireworks can be loud and sudden; keep children close."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Public street events are free. Some church services may be restricted to congregants.",
+      "url": "https://www.visitmalta.com/"
+    },
+    "source": {
+      "label": "Visit Malta — feast calendar",
+      "url": "https://www.visitmalta.com/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Faith", "Procession", "Winter"],
+    "image": "dest-valletta"
+  },
+  {
+    "slug": "scoppio-del-carro-2027",
+    "name": "Scoppio del Carro",
+    "destinationSlug": "florence",
+    "city": "Florence",
+    "country": "Italy",
+    "venue": "Piazza del Duomo",
+    "coordinates": { "lat": 43.7731, "lng": 11.256 },
+    "startDate": "2027-03-28",
+    "endDate": "2027-03-28",
+    "category": "ritual",
+    "dateStatus": "annual-liturgical",
+    "summary": "A mechanical dove flies from the Duomo altar and sets off a cart of fireworks — Florence's Easter morning spectacle.",
+    "body": [
+      "The Scoppio del Carro — the explosion of the cart — is a Florentine Easter ritual with medieval roots. A mechanical dove is released from the altar during Mass and travels down a wire to ignite a cart full of fireworks in the square. A clean, loud explosion is traditionally read as a good omen for the year.",
+      "The ceremony begins in the morning, and the square fills early. It is a religious event as well as a civic tradition: Mass is celebrated, the archbishop leads the ritual, and the city's history is present in the guilds and ceremonial that surround it. In 2027 Easter Sunday falls on 28 March."
+    ],
+    "whyGo": "For a genuinely singular ritual: part engineering, part faith, part civic theatre, over in a few spectacular minutes.",
+    "etiquette": [
+      "Arrive early and follow the barriers; the fireworks are real.",
+      "Do not climb on walls or statues for a better view.",
+      "Keep silence during the Mass and follow the crowd's cues."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Watching in the square is free. Some surrounding terraces and events may be ticketed.",
+      "url": "https://duomo.firenze.it/en/"
+    },
+    "source": {
+      "label": "Opera di Santa Maria del Fiore — Easter programme",
+      "url": "https://duomo.firenze.it/en/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Easter", "Ritual", "Spring"],
+    "image": "dest-florence"
+  },
+  {
+    "slug": "sant-jordi-barcelona-2027",
+    "name": "Sant Jordi",
+    "destinationSlug": "barcelona",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Citywide, especially La Rambla and the Gothic Quarter",
+    "coordinates": { "lat": 41.3874, "lng": 2.1686 },
+    "startDate": "2027-04-23",
+    "endDate": "2027-04-23",
+    "category": "festival",
+    "dateStatus": "annual-fixed",
+    "summary": "A citywide book and rose market: Barcelona's most civilised street festival.",
+    "body": [
+      "On 23 April, the feast of Sant Jordi, Barcelona fills with stalls selling books and roses. The tradition combines the medieval legend of the dragon-slaying saint with a modern civic celebration of literature; it is also World Book Day, and the city takes both seriously.",
+      "The atmosphere is unusually gentle for a major festival: families, couples and colleagues exchange books and roses, and authors sign copies across the centre. It is a working day in Catalonia, so the streets are busiest in the late afternoon and early evening."
+    ],
+    "whyGo": "For the rare festival that is about reading and giving rather than spectacle — and for the pleasure of seeing a whole city carry flowers home.",
+    "etiquette": [
+      "Buy from the stalls and publishers directly; it is the point of the day.",
+      "Keep pedestrian flows moving on narrow streets.",
+      "Ask before photographing couples or families exchanging gifts."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Street stalls and most public events are free. Book signings may require a purchase or queue.",
+      "url": "https://www.barcelona.cat/en/"
+    },
+    "source": {
+      "label": "Barcelona City Council — Sant Jordi",
+      "url": "https://www.barcelona.cat/en/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Books", "Roses", "Spring"],
+    "image": "dest-barcelona"
+  },
+  {
+    "slug": "aoi-matsuri-2027",
+    "name": "Aoi Matsuri",
+    "destinationSlug": "kyoto",
+    "city": "Kyoto",
+    "country": "Japan",
+    "venue": "Kyoto Imperial Palace to Shimogamo and Kamigamo Shrines",
+    "coordinates": { "lat": 35.0116, "lng": 135.7681 },
+    "startDate": "2027-05-15",
+    "endDate": "2027-05-15",
+    "category": "ritual",
+    "dateStatus": "annual-fixed",
+    "summary": "Kyoto's oldest festival: a courtly procession of hollyhock leaves, horses and Heian dress between two shrines.",
+    "body": [
+      "Aoi Matsuri is one of Kyoto's three great festivals and its oldest, rooted in prayers for a good harvest at the Kamo shrines. The central procession recreates a Heian court journey, with participants in layered robes, mounted archers and a sacred palanquin. Hollyhock leaves — aoi — decorate the costumes and the shrines.",
+      "The procession leaves the Imperial Palace in the morning, stops at Shimogamo Shrine around midday and reaches Kamigamo in the afternoon. Watching is free along much of the route; the shrines have their own viewing arrangements. It is a solemn, slow event, and the city treats it accordingly."
+    ],
+    "whyGo": "To see ritual continuity rather than a re-enactment: a festival that has been performed at the same shrines for centuries.",
+    "etiquette": [
+      "Do not step into the procession or block the route for photographs.",
+      "Keep voices low at the shrines; this is an active religious observance.",
+      "Check shrine rules for photography and restricted areas."
+    ],
+    "tickets": {
+      "status": "mixed",
+      "note": "Free to watch along the route; some shrine seating is ticketed through official channels.",
+      "url": "https://kyoto.travel/en/"
+    },
+    "source": {
+      "label": "Kyoto City Official Travel Guide — Aoi Matsuri",
+      "url": "https://kyoto.travel/en/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Procession", "Shinto", "Spring"],
+    "image": "dest-kyoto"
+  },
+  {
+    "slug": "lotus-lantern-festival-2027",
+    "name": "Lotus Lantern Festival",
+    "destinationSlug": "seoul",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Jongno and the Cheonggyecheon stream",
+    "coordinates": { "lat": 37.573, "lng": 126.9794 },
+    "startDate": "2027-05-13",
+    "endDate": "2027-05-16",
+    "category": "ritual",
+    "dateStatus": "confirmed",
+    "summary": "Paper lanterns, a night parade and a city full of light for Buddha's birthday.",
+    "body": [
+      "Buddha's Birthday in Korea is marked by the Lotus Lantern Festival, organised by the Jogye Order. The programme includes a lantern parade through central Seoul, traditional performances and lantern displays along the Cheonggyecheon. The 2027 birthday falls on 13 May, and the festival usually extends across the surrounding weekend.",
+      "The lanterns are often sponsored by families, temples and community groups, and the parade is a genuinely popular event rather than a tourist production. The atmosphere is festive but the religious context matters: many participants are observing a sacred day."
+    ],
+    "whyGo": "For one of the most beautiful night processions in East Asia — and a reminder that Seoul's Buddhism is a living public culture.",
+    "etiquette": [
+      "Do not push into the parade; follow stewards and barriers.",
+      "Treat temple grounds and monks with respect; ask before photographing.",
+      "Dress for a long, crowded evening and keep children close."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Street parade and outdoor displays are generally free. Temple programmes may require registration.",
+      "url": "https://www.llf.or.kr/"
+    },
+    "source": {
+      "label": "Lotus Lantern Festival — official",
+      "url": "https://www.llf.or.kr/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Lanterns", "Buddhism", "Night"],
+    "image": "dest-seoul"
+  },
+  {
+    "slug": "iceland-national-day-2027",
+    "name": "Icelandic National Day",
+    "destinationSlug": "reykjavik",
+    "city": "Reykjavík",
+    "country": "Iceland",
+    "venue": "Downtown Reykjavík",
+    "coordinates": { "lat": 64.1466, "lng": -21.9426 },
+    "startDate": "2027-06-17",
+    "endDate": "2027-06-17",
+    "category": "national-day",
+    "dateStatus": "annual-fixed",
+    "summary": "The republic's birthday: parades, brass bands, street performances and a lot of ice cream.",
+    "body": [
+      "17 June marks Iceland's National Day and the founding of the republic in 1944. Reykjavík holds a parade, brass bands and street performances; the day is family-oriented, informal and free. The weather is part of the experience — sun, wind and rain can all arrive within an hour.",
+      "The date is also associated with Jón Sigurðsson, the nineteenth-century independence campaigner. The celebrations are civic rather than military, with a strong emphasis on community and children. Many businesses close or keep short hours."
+    ],
+    "whyGo": "A warm, small-capital national day with none of the bombast — and a good excuse to see the city at play.",
+    "etiquette": [
+      "The parade is crowded but informal; follow the flow and keep children close.",
+      "Do not assume shops and restaurants are open; check ahead.",
+      "Dress for wind and rain even if the morning is sunny."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Street programme is free. Some museum events may charge or require booking.",
+      "url": "https://www.visitreykjavik.is/"
+    },
+    "source": {
+      "label": "Visit Reykjavík — National Day",
+      "url": "https://www.visitreykjavik.is/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["National Day", "Parade", "Summer"],
+    "image": "dest-reykjavik"
+  },
+  {
+    "slug": "fete-de-la-musique-paris-2027",
+    "name": "Fête de la Musique",
+    "destinationSlug": "paris",
+    "city": "Paris",
+    "country": "France",
+    "venue": "Streets, squares and venues across the city",
+    "coordinates": { "lat": 48.8566, "lng": 2.3522 },
+    "startDate": "2027-06-21",
+    "endDate": "2027-06-21",
+    "category": "music",
+    "dateStatus": "annual-fixed",
+    "summary": "The longest day of the year becomes an open-air concert: free music on every corner.",
+    "body": [
+      "Fête de la Musique began in France in 1982 and has spread around the world. On 21 June, amateur and professional musicians play free in streets, squares, courtyards and parks. The guiding idea is simple: make music accessible, and let the city be the venue.",
+      "Paris becomes pleasantly chaotic. Some events are organised and advertised; many are improvised. The best approach is to pick a neighbourhood and walk, rather than chasing a schedule across the city. The night is long, the metro is busy, and the atmosphere is more civic than commercial."
+    ],
+    "whyGo": "For a genuinely public music festival with no ticket barrier — and a rare evening when the whole city seems to be listening.",
+    "etiquette": [
+      "Respect residents: do not amplify music late in residential courtyards.",
+      "Keep walkways clear and follow local crowd management.",
+      "Carry cash for small venues and food stalls; not every place takes cards."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Most street performances are free. Some venues host ticketed or reservation-only events.",
+      "url": "https://fetedelamusique.culture.gouv.fr/"
+    },
+    "source": {
+      "label": "Fête de la Musique — French Ministry of Culture",
+      "url": "https://fetedelamusique.culture.gouv.fr/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Music", "Street", "Summer"],
+    "image": "dest-paris"
+  },
+  {
+    "slug": "santo-antonio-lisbon-2027",
+    "name": "Santo António",
+    "destinationSlug": "lisbon",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "venue": "Alfama, Graça and citywide",
+    "coordinates": { "lat": 38.7223, "lng": -9.1393 },
+    "startDate": "2027-06-12",
+    "endDate": "2027-06-13",
+    "category": "festival",
+    "dateStatus": "annual-fixed",
+    "summary": "Grilled sardines, paper decorations and all-night neighbourhood parties for Lisbon's favourite saint.",
+    "body": [
+      "Santo António is Lisbon's patron saint, and his feast on 13 June is the city's biggest street party. Alfama and Graça fill with paper garlands and grilled sardines; revellers move between neighbourhood stages and improvised parties that last until dawn.",
+      "The religious side is still present: the cathedral hosts the traditional Santo António weddings, and processions move through the old streets. But the dominant mood is communal and loud. If you want quiet, stay away from the old neighbourhoods on the night of 12–13 June."
+    ],
+    "whyGo": "For the most local of Lisbon's festivals: sardines, cheap wine, tiled streets and music that belongs to the neighbourhood.",
+    "etiquette": [
+      "Do not block doorways or stairways; people live in these streets.",
+      "Keep valuables secure in crowds.",
+      "Ask before photographing revellers, especially late at night."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Street parties are free. Food and drink are sold by local stalls; some concerts may be ticketed.",
+      "url": "https://www.visitlisboa.com/en"
+    },
+    "source": {
+      "label": "Visit Lisboa — Festas de Lisboa",
+      "url": "https://festasdelisboa.pt/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Sardines", "Street", "Summer"],
+    "image": "dest-lisbon"
+  },
+  {
+    "slug": "gnaoua-festival-2027",
+    "name": "Gnaoua and World Music Festival",
+    "destinationSlug": "essaouira",
+    "city": "Essaouira",
+    "country": "Morocco",
+    "venue": "Place Moulay Hassan and venues across the medina",
+    "coordinates": { "lat": 31.5085, "lng": -9.7595 },
+    "startDate": "2027-06-24",
+    "endDate": "2027-06-26",
+    "category": "music",
+    "dateStatus": "confirmed",
+    "summary": "Gnawa masters, jazz and global collaborations take over the windiest medina in Morocco.",
+    "body": [
+      "The Gnaoua and World Music Festival brings together maâlems — Gnawa masters — with jazz, blues, rock and musicians from across Africa and beyond. It began in 1998 and has become one of the most respected world-music festivals in North Africa, with a parallel Human Rights Forum.",
+      "The main stage is on Place Moulay Hassan, but the festival spills into the medina and the beach. The music has spiritual roots in Gnawa healing traditions; the festival treats those roots seriously even as it programs contemporary collaborations. The 28th edition runs from 24 to 26 June 2027."
+    ],
+    "whyGo": "For a meeting of spiritual music and contemporary improvisation that is rooted in the town rather than imported into it.",
+    "etiquette": [
+      "Do not treat Gnawa ritual as background music; listen and ask before filming.",
+      "Book accommodation early; the medina fills up.",
+      "Respect Ramadan and local dress norms if your visit coincides with the holy month."
+    ],
+    "tickets": {
+      "status": "mixed",
+      "note": "Some stages and passes are ticketed; check the official festival site for current prices and programme.",
+      "url": "https://www.festival-gnaoua.net/"
+    },
+    "source": {
+      "label": "Gnaoua Festival — official 2027 dates",
+      "url": "https://www.festival-gnaoua.net/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Music", "Gnawa", "Summer"],
+    "image": "dest-essaouira"
+  },
+  {
+    "slug": "gion-matsuri-2027",
+    "name": "Gion Matsuri",
+    "destinationSlug": "kyoto",
+    "city": "Kyoto",
+    "country": "Japan",
+    "venue": "Yasaka Shrine and central Kyoto",
+    "coordinates": { "lat": 35.0037, "lng": 135.7785 },
+    "startDate": "2027-07-01",
+    "endDate": "2027-07-31",
+    "category": "ritual",
+    "dateStatus": "annual-fixed",
+    "summary": "A month of purification, portable shrines and enormous wooden floats in the streets of Kyoto.",
+    "body": [
+      "Gion Matsuri began in the ninth century as a ritual to appease the gods during an epidemic. It now runs through July, with the great Yamaboko float processions on 17 and 24 July as its centrepiece. The floats are assembled without nails, decorated with tapestries and moved through the streets by teams of men.",
+      "The festival belongs to Yasaka Shrine and the Gion neighbourhood, and many events are religious rather than commercial. Yoiyama evenings before each procession are the most atmospheric: lantern-lit streets, food stalls and private houses displaying family treasures."
+    ],
+    "whyGo": "For the scale and craft of the floats, and the rare sight of a major city giving its centre over to a centuries-old ritual.",
+    "etiquette": [
+      "Do not touch the floats or step into the procession route.",
+      "Avoid photographing private homes during Yoiyama without permission.",
+      "Expect heat and crowds; carry water and use the designated viewing areas."
+    ],
+    "tickets": {
+      "status": "mixed",
+      "note": "Street viewing is free; some seated viewing areas and tea ceremonies are ticketed through official channels.",
+      "url": "https://www.gionmatsuri.or.jp/"
+    },
+    "source": {
+      "label": "Gion Matsuri — official",
+      "url": "https://www.gionmatsuri.or.jp/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Floats", "Shinto", "Summer"],
+    "image": "dest-kyoto"
+  },
+  {
+    "slug": "festa-della-bruna-2027",
+    "name": "Festa della Bruna",
+    "destinationSlug": "matera",
+    "city": "Matera",
+    "country": "Italy",
+    "venue": "Piazza Duomo and Piazza Vittorio Veneto",
+    "coordinates": { "lat": 40.6664, "lng": 16.6043 },
+    "startDate": "2027-07-02",
+    "endDate": "2027-07-02",
+    "category": "ritual",
+    "dateStatus": "annual-fixed",
+    "summary": "Matera's patronal feast ends with a papier-mâché cart deliberately torn apart by the crowd.",
+    "body": [
+      "Festa della Bruna is the defining event of Matera's year, celebrated on 2 July since the fourteenth century. A decorated triumphal cart carrying the Madonna is pulled through the city; at the end of the day, the crowd storms it and tears it apart in a ritual known as the strazzo. It is fervent, physical and not a spectator sport.",
+      "The day begins with the procession of shepherds and continues with bands, fireworks and religious observance. The 2027 edition is the 638th. Visitors are welcome, but the cart-breaking is dangerous and should be watched from behind barriers."
+    ],
+    "whyGo": "For an unfiltered southern Italian patronal festival — devotional, communal and unlike anything staged for tourists.",
+    "etiquette": [
+      "Do not join the crowd that breaks the cart; it is genuinely hazardous.",
+      "Follow stewards and keep behind barriers.",
+      "Book accommodation months ahead; the city is full."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Street events are free. Some organised viewing and religious events may require booking.",
+      "url": "https://www.festadellabruna.it/"
+    },
+    "source": {
+      "label": "Festa della Bruna — official",
+      "url": "https://www.festadellabruna.it/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Patron saint", "Procession", "Summer"],
+    "image": "dest-matera"
+  },
+  {
+    "slug": "bastille-day-paris-2027",
+    "name": "Bastille Day",
+    "destinationSlug": "paris",
+    "city": "Paris",
+    "country": "France",
+    "venue": "Champs-Élysées, Trocadéro and citywide",
+    "coordinates": { "lat": 48.8738, "lng": 2.295 },
+    "startDate": "2027-07-14",
+    "endDate": "2027-07-14",
+    "category": "national-day",
+    "dateStatus": "annual-fixed",
+    "summary": "France's national day: a military parade, fire station parties and fireworks over the Seine.",
+    "body": [
+      "14 July marks the storming of the Bastille in 1789 and the Fête de la Fédération in 1790. Paris holds a military parade on the Champs-Élysées in the morning, air displays overhead, and fireworks in the evening. Fire stations across the city open their courtyards for bals des pompiers, a beloved local tradition.",
+      "The day is political as well as celebratory, and security is tight. The best experience is often not the official parade but a neighbourhood fire-station party or a picnic in a park. Public transport runs late but stations near the parade close."
+    ],
+    "whyGo": "For the paradoxical mix of military spectacle and neighbourhood dancing that defines the French national day.",
+    "etiquette": [
+      "Follow security instructions and expect bag checks.",
+      "Do not climb on monuments or fences for a view.",
+      "If attending a fire-station ball, buy drinks at the bar and respect the volunteers."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Street events and fireworks are free; some official viewing areas require registration. Fire-station balls may charge entry.",
+      "url": "https://www.paris.fr/"
+    },
+    "source": {
+      "label": "Paris.fr — 14 July programme",
+      "url": "https://www.paris.fr/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["National Day", "Fireworks", "Summer"],
+    "image": "dest-paris"
+  },
+  {
+    "slug": "gentse-feesten-2027",
+    "name": "Gentse Feesten",
+    "destinationSlug": "ghent",
+    "city": "Ghent",
+    "country": "Belgium",
+    "venue": "Historic centre, squares and streets",
+    "coordinates": { "lat": 51.0543, "lng": 3.7174 },
+    "startDate": "2027-07-16",
+    "endDate": "2027-07-25",
+    "category": "festival",
+    "dateStatus": "confirmed",
+    "summary": "Ten days when Ghent's centre becomes one of Europe's largest free street festivals.",
+    "body": [
+      "Gentse Feesten began in 1843 and now fills the city centre with music, theatre, dance, street performance and markets for ten days in July. Most of the programme is free, spread across more than a dozen squares and stages. The atmosphere is local and unpretentious: it is a city festival, not a showcase for the music industry.",
+      "The 2027 edition runs from Friday 16 to Sunday 25 July. The opening is on the Friday before the third Sunday of July, and the closing on the fourth Sunday. Book accommodation early — Ghent is a small city and the festival draws hundreds of thousands."
+    ],
+    "whyGo": "For the rare big festival that still feels like it belongs to the people who live there.",
+    "etiquette": [
+      "Use the tram or bike; driving and parking are difficult during the festival.",
+      "Keep an eye on your belongings in dense crowds.",
+      "Respect residents: keep noise down when leaving the centre late."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "The core programme is free. Some concerts, theatre and indoor events are ticketed.",
+      "url": "https://gentsefeesten.stad.gent/"
+    },
+    "source": {
+      "label": "Stad Gent — official 2027 dates",
+      "url": "https://gentsefeesten.stad.gent/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Street", "Music", "Summer"],
+    "image": "dest-ghent"
+  },
+  {
+    "slug": "chuseok-seoul-2027",
+    "name": "Chuseok — Korean Harvest Festival",
+    "destinationSlug": "seoul",
+    "city": "Seoul",
+    "country": "South Korea",
+    "venue": "Citywide and family homes",
+    "coordinates": { "lat": 37.5665, "lng": 126.978 },
+    "startDate": "2027-09-14",
+    "endDate": "2027-09-16",
+    "category": "ritual",
+    "dateStatus": "confirmed",
+    "summary": "Korea's harvest holiday: ancestral rites, songpyeon and the year's biggest family migration.",
+    "body": [
+      "Chuseok is the Korean harvest festival, held on the fifteenth day of the eighth lunar month. Families gather at the ancestral home, perform jesa rites, visit graves and share songpyeon — half-moon rice cakes. It is often described as Korean Thanksgiving, but the ancestral dimension makes it distinct.",
+      "In 2027 the holiday runs from Tuesday 14 to Thursday 16 September. Seoul empties as people travel to their hometowns; intercity transport sells out weeks in advance. Palaces and museums often run special programmes, but many shops and restaurants close."
+    ],
+    "whyGo": "To understand the family-centred core of Korean culture — and to see the city in an unusually quiet, reflective mood.",
+    "etiquette": [
+      "Avoid scheduling major travel during the holiday unless you have booked well ahead.",
+      "Do not photograph ancestral rites or grave visits without permission.",
+      "If offered songpyeon, accept it with two hands."
+    ],
+    "tickets": {
+      "status": "free",
+      "note": "Public holiday. Some palace and museum programmes are free; check individual sites for holiday hours.",
+      "url": "https://english.visitkorea.or.kr/"
+    },
+    "source": {
+      "label": "Korea Tourism Organization — 2027 holiday calendar",
+      "url": "https://english.visitkorea.or.kr/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Harvest", "Family", "Autumn"],
+    "image": "dest-seoul"
+  },
+  {
+    "slug": "jidai-matsuri-2027",
+    "name": "Jidai Matsuri",
+    "destinationSlug": "kyoto",
+    "city": "Kyoto",
+    "country": "Japan",
+    "venue": "Kyoto Imperial Palace to Heian Jingu",
+    "coordinates": { "lat": 35.0116, "lng": 135.7681 },
+    "startDate": "2027-10-22",
+    "endDate": "2027-10-22",
+    "category": "ritual",
+    "dateStatus": "annual-fixed",
+    "summary": "A two-kilometre procession through eight eras of Kyoto's history, in precise period dress.",
+    "body": [
+      "Jidai Matsuri — the Festival of the Ages — was created in 1895 for the 1,100th anniversary of Kyoto's founding as capital. Around 2,000 participants walk from the Imperial Palace to Heian Jingu in costumes representing eight historical periods, from the Meiji Restoration back to the Heian court.",
+      "The date is fixed at 22 October and has been since 1896. It is a civic festival rather than a religious procession, though it ends at a Shinto shrine. The costumes and weapons are carefully researched, and the pace is slow: this is a procession to watch in sections rather than follow end to end."
+    ],
+    "whyGo": "For a living essay on how Kyoto remembers its own history — and for the spectacle of the costumes against the autumn city.",
+    "etiquette": [
+      "Do not step into the procession for photographs.",
+      "Use marked crossings and follow police directions.",
+      "Seated viewing may be ticketed; standing along the route is free."
+    ],
+    "tickets": {
+      "status": "mixed",
+      "note": "Free along most of the route; paid seating is available through official channels.",
+      "url": "https://kyoto.travel/en/"
+    },
+    "source": {
+      "label": "Kyoto City Official Travel Guide — Jidai Matsuri",
+      "url": "https://kyoto.travel/en/",
+      "checkedAt": "2026-11-12"
+    },
+    "tags": ["Procession", "History", "Autumn"],
+    "image": "dest-kyoto"
+  }
+]

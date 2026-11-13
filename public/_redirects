@@ -1,0 +1,5 @@
+# Browser-local journeys and collections are created at runtime with a
+# predictable ID prefix. Keep those deep links refreshable without turning
+# every unknown path into a successful SPA shell.
+/plan/trip-* /plan/index.html 200
+/collections/collection-* /collections/index.html 200

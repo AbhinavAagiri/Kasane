@@ -1,0 +1,87 @@
+# KASANE
+
+> KASANE is an independent editorial atlas of living culture: 24 places in 22 countries, read through architecture, culture, landscape, food and the calendar.
+
+## What this site is
+
+KASANE is a static editorial publication and a browser-based travel planner. It does not take bookings, sell trips or publish rankings. Places are described editorially; event dates are checked against official sources and should be confirmed with the organiser.
+
+## Main sections
+
+- [The atlas](https://kasane-atlas.pages.dev/explore): search and filter every destination.
+- [Journal](https://kasane-atlas.pages.dev/journal): essays on places, architecture, culture and nature.
+- [Culture](https://kasane-atlas.pages.dev/culture): beliefs, rituals, food, craft and local life.
+- [Events](https://kasane-atlas.pages.dev/events): a checked calendar of cultural festivals and gatherings.
+- [Collections](https://kasane-atlas.pages.dev/collections): curated routes through the atlas.
+- [Plan a journey](https://kasane-atlas.pages.dev/plan): a local, day-by-day itinerary tool.
+- [About](https://kasane-atlas.pages.dev/about): what KASANE is and how it is made.
+
+## Countries
+
+- [Japan](https://kasane-atlas.pages.dev/countries/japan)
+- [India](https://kasane-atlas.pages.dev/countries/india)
+- [Spain](https://kasane-atlas.pages.dev/countries/spain)
+- [Italy](https://kasane-atlas.pages.dev/countries/italy)
+- [Iceland](https://kasane-atlas.pages.dev/countries/iceland)
+- [United States](https://kasane-atlas.pages.dev/countries/united-states)
+- [Switzerland](https://kasane-atlas.pages.dev/countries/switzerland)
+- [Portugal](https://kasane-atlas.pages.dev/countries/portugal)
+- [Belgium](https://kasane-atlas.pages.dev/countries/belgium)
+- [Malta](https://kasane-atlas.pages.dev/countries/malta)
+- [Morocco](https://kasane-atlas.pages.dev/countries/morocco)
+- [France](https://kasane-atlas.pages.dev/countries/france)
+- [South Korea](https://kasane-atlas.pages.dev/countries/south-korea)
+- [Türkiye](https://kasane-atlas.pages.dev/countries/turkiye)
+- [Vietnam](https://kasane-atlas.pages.dev/countries/vietnam)
+- [Thailand](https://kasane-atlas.pages.dev/countries/thailand)
+- [Indonesia](https://kasane-atlas.pages.dev/countries/indonesia)
+- [Mexico](https://kasane-atlas.pages.dev/countries/mexico)
+- [Peru](https://kasane-atlas.pages.dev/countries/peru)
+- [South Africa](https://kasane-atlas.pages.dev/countries/south-africa)
+- [Greece](https://kasane-atlas.pages.dev/countries/greece)
+- [New Zealand](https://kasane-atlas.pages.dev/countries/new-zealand)
+
+## Destinations
+
+- [Kyoto](https://kasane-atlas.pages.dev/destinations/kyoto)
+- [Jaipur](https://kasane-atlas.pages.dev/destinations/jaipur)
+- [Barcelona](https://kasane-atlas.pages.dev/destinations/barcelona)
+- [Florence](https://kasane-atlas.pages.dev/destinations/florence)
+- [Reykjavík](https://kasane-atlas.pages.dev/destinations/reykjavik)
+- [New York](https://kasane-atlas.pages.dev/destinations/new-york)
+- [Lucerne](https://kasane-atlas.pages.dev/destinations/lucerne)
+- [Lisbon](https://kasane-atlas.pages.dev/destinations/lisbon)
+- [Matera](https://kasane-atlas.pages.dev/destinations/matera)
+- [Ghent](https://kasane-atlas.pages.dev/destinations/ghent)
+- [Valletta](https://kasane-atlas.pages.dev/destinations/valletta)
+- [Essaouira](https://kasane-atlas.pages.dev/destinations/essaouira)
+- [Paris](https://kasane-atlas.pages.dev/destinations/paris)
+- [Seoul](https://kasane-atlas.pages.dev/destinations/seoul)
+- [Marrakech](https://kasane-atlas.pages.dev/destinations/marrakech)
+- [Istanbul](https://kasane-atlas.pages.dev/destinations/istanbul)
+- [Hanoi](https://kasane-atlas.pages.dev/destinations/hanoi)
+- [Bangkok](https://kasane-atlas.pages.dev/destinations/bangkok)
+- [Ubud](https://kasane-atlas.pages.dev/destinations/ubud)
+- [Mexico City](https://kasane-atlas.pages.dev/destinations/mexico-city)
+- [Cusco](https://kasane-atlas.pages.dev/destinations/cusco)
+- [Cape Town](https://kasane-atlas.pages.dev/destinations/cape-town)
+- [Athens](https://kasane-atlas.pages.dev/destinations/athens)
+- [Queenstown](https://kasane-atlas.pages.dev/destinations/queenstown)
+
+## Editorial
+
+- [The quiet architecture of Kyoto](https://kasane-atlas.pages.dev/journal/the-quiet-architecture-of-kyoto)
+- [Beyond the palaces of Rajasthan](https://kasane-atlas.pages.dev/journal/beyond-the-palaces-of-rajasthan)
+- [A slower journey through the Italian countryside](https://kasane-atlas.pages.dev/journal/a-slower-journey-through-the-italian-countryside)
+- [What the Icelandic light does to a landscape](https://kasane-atlas.pages.dev/journal/what-the-icelandic-light-does-to-a-landscape)
+- [Lisbon, read in tiles](https://kasane-atlas.pages.dev/journal/lisbon-read-in-tiles)
+- [New York in layers](https://kasane-atlas.pages.dev/journal/new-york-in-layers)
+
+## Usage and attribution
+
+Editorial text is © KASANE. Photography and film are licensed from the creators credited at [https://kasane-atlas.pages.dev/credits](https://kasane-atlas.pages.dev/credits); do not re-host them without checking the underlying licence. When quoting or citing KASANE, link to the relevant page.
+
+## Machine-readable
+
+- [Sitemap](https://kasane-atlas.pages.dev/sitemap.xml)
+- [Robots policy](https://kasane-atlas.pages.dev/robots.txt)

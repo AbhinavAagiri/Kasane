@@ -1,0 +1,16 @@
+[
+  { "slug": "kyoto", "city": "Kyoto", "countryCode": "JP", "lat": 35.0116, "lng": 135.7681 },
+  { "slug": "jaipur", "city": "Jaipur", "countryCode": "IN", "lat": 26.9124, "lng": 75.7873 },
+  { "slug": "barcelona", "city": "Barcelona", "countryCode": "ES", "lat": 41.3874, "lng": 2.1686 },
+  { "slug": "florence", "city": "Florence", "countryCode": "IT", "lat": 43.7696, "lng": 11.2558 },
+  { "slug": "reykjavik", "city": "Reykjavik", "countryCode": "IS", "lat": 64.1466, "lng": -21.9426 },
+  { "slug": "new-york", "city": "New York", "countryCode": "US", "lat": 40.7128, "lng": -74.006 },
+  { "slug": "lucerne", "city": "Lucerne", "countryCode": "CH", "lat": 47.0502, "lng": 8.3093 },
+  { "slug": "lisbon", "city": "Lisbon", "countryCode": "PT", "lat": 38.7223, "lng": -9.1393 },
+  { "slug": "matera", "city": "Matera", "countryCode": "IT", "lat": 40.6664, "lng": 16.6043 },
+  { "slug": "ghent", "city": "Ghent", "countryCode": "BE", "lat": 51.0543, "lng": 3.7174 },
+  { "slug": "valletta", "city": "Valletta", "countryCode": "MT", "lat": 35.8989, "lng": 14.5146 },
+  { "slug": "essaouira", "city": "Essaouira", "countryCode": "MA", "lat": 31.5085, "lng": -9.7595 },
+  { "slug": "paris", "city": "Paris", "countryCode": "FR", "lat": 48.8566, "lng": 2.3522 },
+  { "slug": "seoul", "city": "Seoul", "countryCode": "KR", "lat": 37.5665, "lng": 126.978 }
+]
