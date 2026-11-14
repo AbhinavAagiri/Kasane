@@ -3559,6 +3559,7 @@
 .layers-list li {
   display: grid;
   grid-template-columns: 2.2rem minmax(0, 1fr);
+  min-width: 0;
   gap: 0.8rem;
   align-items: baseline;
   border-bottom: 1px solid rgba(241, 235, 221, 0.18);
@@ -4255,6 +4256,124 @@
   }
   .layers-list {
     bottom: 5.8rem;
+  }
+}
+
+/* Height-aware chapter corrections ----------------------------------
+   The oversized chapter words are meant to sit behind the copy, not on
+   top of it. Limited-height windows also need the masthead caption out of
+   the way of the rising chapter letters. Keep the chapter names and all
+   editorial content; remove only the decorative caption there. */
+@media (min-width: 768px) and (max-height: 960px) {
+  .world-stage[data-scene='japan'] .world-masthead__left > span:last-child,
+  .world-stage[data-scene='india'] .world-masthead__left > span:last-child,
+  .world-stage[data-scene='nature'] .world-masthead__left > span:last-child {
+    display: none;
+  }
+}
+
+/* India's italic subtitle and the Hawa Mahal inset share the right-hand
+   column. On short desktop windows, lift the subtitle above the photograph
+   so both stay readable. At narrower widths the chapter word reaches into
+   that space, so the decorative line steps out. On tablet widths there is
+   room to place it left of the inset at a smaller size. */
+@media (min-width: 1366px) and (max-height: 860px) {
+  .india-sub {
+    top: 23%;
+  }
+}
+@media (min-width: 1101px) and (max-width: 1365px) and (max-height: 860px) {
+  .india-sub {
+    display: none;
+  }
+}
+@media (min-width: 1101px) and (max-height: 560px) {
+  .india-sub {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1100px) {
+  .india-sub {
+    right: 25vw;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .india-sub {
+    display: none;
+  }
+}
+
+/* On a landscape phone the right column has no room for both pieces. The
+   photograph and the copy are the content; the italic line is decorative. */
+@media (max-width: 950px) and (max-height: 560px) and (orientation: landscape) {
+  .india-sub {
+    display: none;
+  }
+}
+
+/* Florence is a 4:5 frame. On short windows its fixed width pushed the
+   caption below the progress rule, so cap the frame by the available
+   height while leaving tall screens on their original editorial scale. */
+@media (min-width: 768px) {
+  .europe-photo--florence {
+    width: min(35vw, 580px, 55svh);
+  }
+}
+
+/* On tablet widths the Nature line starts close to the inset photograph.
+   Align it to the left edge, above the copy, so it stays intact. */
+@media (min-width: 768px) and (max-width: 1000px) {
+  .nature-sub {
+    left: 6vw;
+  }
+}
+
+/* With almost no vertical room, the giant chapter words would cover the
+   chapter title and body. Drop only those decorative words on short
+   viewports; the kicker, headline, film and links all remain. */
+@media (max-height: 560px) {
+  .japan-word,
+  .india-word,
+  .nature-word {
+    display: none;
+  }
+  .nature-sub {
+    top: 29%;
+    left: 6vw;
+  }
+}
+
+/* Barcelona sits over the lower-left of the larger Florence frame. Lift it
+   so its caption does not land on Florence's caption when the collage is
+   tightened for tablet and short-window layouts. */
+@media (min-width: 768px) and (max-width: 1100px) {
+  .europe-photo--barcelona {
+    bottom: 24%;
+  }
+}
+
+/* The layers index has eight rows. Short windows need a tighter rhythm so
+   the last row stays clear of the progress rule at every width. */
+@media (min-width: 768px) and (max-height: 560px) {
+  .layers-list {
+    top: 24%;
+    padding-top: 0;
+  }
+  .layers-list li {
+    padding: 0.32rem 0;
+    font-size: 0.9rem;
+  }
+  .layers-title {
+    top: 17%;
+  }
+}
+
+/* The empty explore preview repeats guidance already in the index header.
+   Removing it gives the index more of the limited landscape height. */
+@media (max-width: 950px) and (max-height: 560px) and (orientation: landscape) {
+  .world--v5 .world-explore__body:has(.world-preview__empty) .world-preview {
+    display: none;
   }
 }
 
